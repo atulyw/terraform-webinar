@@ -24,7 +24,7 @@ variable "tags" {
 }
 
 variable "availability_zone" {
-  type = list(any)
+  type    = list(any)
   default = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
 }
 
